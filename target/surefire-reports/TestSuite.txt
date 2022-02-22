@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 90.048 s <<< FAILURE! - in TestSuite
+com.inetBanking.testcases.TC_AddNewCustomer_003.AddNewCustomer  Time elapsed: 50.099 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : Customer could not be added !!}
+  (Session info: chrome=98.0.4758.102): Customer could not be added !!
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'LAPTOP-UI12OU1R', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31cfa6f8ba3df13353a8ef3091ad1286, getPageSource {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\byraul\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64390}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64390/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31cfa6f8ba3df13353a8ef3091ad1286
+	at com.inetBanking.testcases.TC_AddNewCustomer_003.AddNewCustomer(TC_AddNewCustomer_003.java:51)
+
